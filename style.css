@@ -1,0 +1,74 @@
+body {
+    background-color: #F8F8F8;
+    max-width: 1120px;
+    
+}
+h1 {
+    font-size: small;
+    color: #7E7E82;
+}
+ul {
+    
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1120px;
+}
+
+li {
+    display: flex;
+    background-color: #FFFFFF;
+    position: relative;
+    margin-right: 32px;
+
+    
+}
+
+.shop-wrapper {
+display: flex;
+width: 240px;
+height: 72px;
+position: relative;
+
+}
+
+.arrow-wrapper {
+    position: absolute;
+    right: 16px;
+    top:16px;
+    height: 40px;
+    width: 40px;
+    border: solid 1px #FF3E79;
+    border-radius: 100%;
+
+
+
+
+    
+}
+.arrow-wrapper img {
+position: absolute;
+right: inherit;
+top: 14px;
+}
+
+.img-wrapper {
+    position: absolute;
+    width: 180px;
+    height: 72px;
+    bottom: -16px;
+    left: 16px;
+}
+
+.viewSonic {
+    margin-top: 10px;
+}
+
+.apple {
+    margin-top: -5px;
+}
+
+#lenovo {
+    height: 68px;
+}
