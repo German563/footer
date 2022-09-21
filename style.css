@@ -72,3 +72,32 @@ top: 14px;
 #lenovo {
     height: 68px;
 }
+
+/* .more {
+    display: none;
+} */
+
+#button_more {
+    margin-top: 37px;
+    margin-left: 35px;
+    display: flex;
+    background-color: #F8F8F8;
+    border: none;
+    cursor: pointer;
+    
+}
+/* #button_less {
+    display: none;
+    margin-top: 37px;
+    margin-left: 27px;
+    background-color: #F8F8F8;
+    border: none;
+    cursor: pointer;
+} */
+.btn-wrapper-text {
+    margin-left: 16px;
+}
+
+.more-shops {
+    display: none;
+}

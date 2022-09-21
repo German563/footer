@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style.css">
+    <script src="./script.js"></script>
     <title>Footer</title>
 </head>
 <body>
@@ -37,7 +38,7 @@
             <div class="shop-wrapper"><div class="img-wrapper"><img class="apple" src="/img/apple.svg" alt=""></div><div class="arrow-wrapper"><img src="/img/arrow.svg" alt=""></div>
         </li>
     </ul>
-    <ul>
+    <ul class="more-shops">
         <li>
             <div class="shop-wrapper"><div class="img-wrapper"><img src="/img/sansung.svg" alt=""></div><div class="arrow-wrapper"><img src="/img/arrow.svg" alt=""></div>
         </li>
@@ -48,5 +49,8 @@
             <div class="shop-wrapper"><div class="img-wrapper"><img class="apple" src="/img/apple.svg" alt=""></div><div class="arrow-wrapper"><img src="/img/arrow.svg" alt=""></div>
         </li>
     </ul>
+    <button id="button_more" onclick="readMore()"> <div ><img id='myImage' src="/img/arrows-down.svg" alt=""></div> <div class="btn-wrapper-text">Показать всё</div> </button>
+    <button onclick="myFunction()" id="on">ON</button>
+    <button onclick="myFunction()" id="off" style="display: none;">OFF</button>
 </body>
 </html>
