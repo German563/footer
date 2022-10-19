@@ -13,7 +13,6 @@ ul {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    max-width: 1120px;
 }
 
 li {
@@ -71,4 +70,11 @@ top: 14px;
 
 #lenovo {
     height: 68px;
+}
+#btn {
+    width: 200px;
+}
+
+#more {
+    display: none;
 }
